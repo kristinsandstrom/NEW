@@ -1,0 +1,69 @@
+
+
+
+
+@font-face{
+	font-family:"Ortica";
+	src: url("font/Ortica-Light.otf") format("opentype");
+}
+
+
+body{
+	height:100%;
+	width:100%;
+	/*background-color:#12271d;*/
+	background: linear-gradient(-45deg, #f2db5a, #f28f5a, #5a64f2, #5a64f2);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+h1{
+	font-family:"Ortica",helvetica;
+	font-size:45px;
+	line-height:50px;
+	letter-spacing:1px;
+	text-transform: uppercase;
+	font-weight:normal;
+	padding:20 20 0 20;
+	color:black;
+	
+} 
+
+.projects{
+	
+}
+
+a:link, a:visited {
+	color:black;
+	background-color:transparent;
+	text-decoration:none;
+}
+
+a:hover, a:active {
+	color:	#F0E68C;
+	background-color:transparent;
+	text-de
+}
+
+@keyframes typeloop {
+	0%, 100% {
+	    color: black;
+	  }
+	  50%{
+	    color: white;
+	  }
+	   
+	  
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
